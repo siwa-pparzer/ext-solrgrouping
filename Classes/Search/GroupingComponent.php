@@ -26,7 +26,7 @@ namespace ApacheSolrForTypo3\Solrgrouping\Search;
 
 use ApacheSolrForTypo3\Solr\Plugin\CommandPostProcessor;
 use ApacheSolrForTypo3\Solr\Plugin\PluginAware;
-use ApacheSolrForTypo3\Solr\Query;
+use ApacheSolrForTypo3\Solr\Domain\Search\Query\Query;
 use ApacheSolrForTypo3\Solr\Search\AbstractComponent;
 use ApacheSolrForTypo3\Solr\Search\QueryAware;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
